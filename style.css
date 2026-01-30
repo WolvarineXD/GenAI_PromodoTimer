@@ -205,3 +205,14 @@ button:active {
   filter: brightness(1.15);
   box-shadow: 0 8px 24px -6px rgba(102, 126, 234, 0.45);
 }
+
+.credit {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  z-index: 2;
+}
